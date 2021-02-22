@@ -2,10 +2,10 @@ body {
     font-family: 'Montserrat', sans-serif;
 }
 .container{
-    width: 100%;
     max-width: 1200px;
     margin: 0 auto;
     }
+
 .header_background {
     background: url("../img/headerimg.png") center no-repeat;
     background-attachment: fixed;
@@ -287,6 +287,7 @@ body {
     padding-bottom: 91px; 
 }
 .our_work_title {
+    text-align: center;
     margin-bottom: 24px;
     font-size: 36px;
     font-weight: 300;;
@@ -297,8 +298,10 @@ body {
     width: 700px;
     height: 62px;
     display: inline-flex;
+    align-items: center;
     font-weight: normal;
     font-size: 14px;
+    margin-left: 280px;
     margin-bottom: 71px;
     margin-top: 65px;
 }
@@ -409,7 +412,8 @@ body {
 }
 
 .more_button {
-    margin: 70px 0;
+    margin-top: 70px;
+    margin-left: 525px;
     padding: 13px 23px 8px 0;
     border-radius: 3px;
     font-weight: bold;
