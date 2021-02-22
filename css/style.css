@@ -457,8 +457,7 @@ body {
 .inner_cards {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-evenly;
-    max-width: 1940px;
+    justify-content: space-between;
 }
 .news_card {
     position: relative;
