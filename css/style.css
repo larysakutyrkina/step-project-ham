@@ -7,7 +7,7 @@ body {
     margin: 0 auto;
     }
 .header_background {
-    background: url("/img/headerimg.png") center no-repeat;
+    background: url("../img/headerimg.png") center no-repeat;
     background-attachment: fixed;
     height: 1012px;
 }
@@ -236,7 +236,7 @@ body {
 }
 .purchase_block{
     height: 476px;
-    background: url("/img/purchaseBG.png") center no-repeat;
+    background: url("../img/purchaseBG.png") center no-repeat;
 }
 .purchase_title {  
     padding-top: 125px;
