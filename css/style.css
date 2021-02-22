@@ -301,9 +301,14 @@ body {
     align-items: center;
     font-weight: normal;
     font-size: 14px;
-    margin-left: 280px;
     margin-bottom: 71px;
     margin-top: 65px;
+}
+.tabs_wrap {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 .tabs_work {
     display: flex;
@@ -413,7 +418,6 @@ body {
 
 .more_button {
     margin-top: 70px;
-    margin-left: 525px;
     padding: 13px 23px 8px 0;
     border-radius: 3px;
     font-weight: bold;
